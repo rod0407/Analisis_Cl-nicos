@@ -2,7 +2,7 @@ function evaluar() {
     // Validar si se ingresó el nombre del paciente
     const paciente = document.getElementById("paciente").value.trim();
     if (paciente === "") {
-      alert("Por favor, ingresa el los datos del paciente.");
+      alert("Por favor, ingresa los datos del paciente.");
       return; // Salir de la función si el campo está vacío
     }
   
